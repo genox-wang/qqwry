@@ -1,0 +1,9 @@
+package: qqwry
+import:
+- package: github.com/pquerna/ffjson
+  subpackages:
+  - ffjson
+- package: golang.org/x/text
+  version: ~0.3.0
+  subpackages:
+  - encoding/simplifiedchinese

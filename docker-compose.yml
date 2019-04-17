@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  api:
+    image: busybox
+    container_name: ${CONTAINER_NAME}
+    volumes:
+      - ./qqwry:/qqwry
+      - ./qqwry.dat:/qqwry.dat
+      # - /usr/local/go/lib/time/zoneinfo.zip:/usr/local/go/lib/time/zoneinfo.zip
+    ports:
+      - "${PORT}:2060"
+    restart: always
+    command: ./qqwry
+
+

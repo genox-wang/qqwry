@@ -1,0 +1,18 @@
+hash: 80801ff914ada38d2d20b8535428fc857b0802515b53774ec6a5b6225559ba3d
+updated: 2019-04-17T10:35:53.00447+08:00
+imports:
+- name: github.com/pquerna/ffjson
+  version: e517b90714f7c0eabe6d2e570a5886ae077d6db6
+  subpackages:
+  - ffjson
+  - fflib/v1
+  - fflib/v1/internal
+- name: golang.org/x/text
+  version: f21a4dfb5e38f5895301dc265a8def02365cc3d0
+  subpackages:
+  - encoding
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/simplifiedchinese
+  - transform
+testImports: []

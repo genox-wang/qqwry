@@ -33,9 +33,15 @@ https://github.com/freshcn/qqwry/releases
     	纯真 IP 库的地址 (default "./qqwry.dat")
 ```
 
+### Docker 部署方式
+
+```
+./build.sh -n 容器名(默认:qqwry) -p 端口号(默认:8888)
+```
+
 ## 使用方法
 ```
-http://127.0.0.1:2060?ip=8.8.8.8,114.114.114.114&callback=a
+http://127.0.0.1:8888?ip=8.8.8.8,114.114.114.114&callback=a
 ```
 
 * ip - 要查询的IP地址，可使用半角逗号分隔查询多个IP地址。必填项
@@ -55,3 +61,4 @@ http://127.0.0.1:2060?ip=8.8.8.8,114.114.114.114&callback=a
 
 * 感谢[纯真IP库](http://www.cz88.net)一直以来坚持为大家提供免费的IP库资源
 * 感谢[yinheli](https://github.com/yinheli)的[qqwry](https://github.com/yinheli/qqwry)项目，为我提供了纯真ip库文件格式算法
+* 感谢[freshcn](https://github.com/freshcn)的[qqwry](https://github.com/freshcn/qqwry)项目，为我提供了基于 golang 的高效实现
